@@ -11,9 +11,11 @@ public class Task13 {
         String s1 = sc.nextLine();
         String s2 = sc.nextLine();
         if (s1.length() > s2.length()) {
+            System.out.print("Строка с наибольшей длиной: ");
             System.out.println(s1);
         }
         if (s2.length() > s1.length()) {
+            System.out.print("Строка с наибольшей длиной: ");
             System.out.println(s2);
         }
         else{
